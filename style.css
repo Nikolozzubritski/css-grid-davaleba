@@ -1,0 +1,117 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.grid1 div {
+    border: 2px solid #26394b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #26394b;
+}
+
+.grid1 div:nth-child(1) {
+    grid-row: span 1;
+}
+
+.grid1 div:nth-child(2) {
+    grid-row: span 1;
+}
+
+.grid1 div:nth-child(3) {
+    grid-row: span 1;
+}
+
+.grid1 div:nth-child(4) {
+    grid-row: span 1;
+}
+
+.grid1 div:nth-child(5) {
+    grid-row: span 1;
+}
+
+.grid1 .empty {
+    background-color: #244d75;
+}
+
+.grid1 div:nth-child(7) {
+    grid-column: span 1;
+}
+
+.grid1 div:nth-child(8) {
+    grid-column: span 1;
+}
+
+.grid1 .empty2 {
+    background-color: #244d75;
+    grid-column: span 2;
+}
+
+.grid1 div:nth-child(10) {
+    grid-column: span 1;
+}
+
+.grid1 div:nth-child(11) {
+    grid-column: span 1;
+}
+
+.grid1 div:nth-child(12) {
+    grid-column: span 1;
+}
+
+.grid1 div:nth-child(13) {
+    grid-column: span 1;
+}
+
+.grid1 div:nth-child(14) {
+    grid-column: span 1;
+}
+.grid2 {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 100px);
+}
+
+.grid2 div {
+border: 2px solid black;
+background-color: #eaf0f4;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+}
+
+.grid2 div:nth-child(1) {
+grid-column: span 2;
+}
+
+.grid2 div:nth-child(2) {
+grid-column: span 1;
+}
+
+.grid2 div:nth-child(3) {
+grid-column: span 1;
+}
+
+.grid2 div:nth-child(4) {
+grid-column: span 1;
+}
+
+.grid2 div:nth-child(5) {
+grid-column: span 2;
+}
+
+.grid2 div:nth-child(6) {
+grid-column: span 1;
+}
+
+.grid2 div:nth-child(7) {
+grid-column-start: 2;
+}
+
+.grid2 div:nth-child(8) {
+grid-column: span 2;
+} 
